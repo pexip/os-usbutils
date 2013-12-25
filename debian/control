@@ -1,9 +1,11 @@
 Source: usbutils
 Section: utils
 Priority: optional
-Maintainer: Aurelien Jarno <aurel32@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Aurelien Jarno <aurel32@debian.org>
 Build-Depends: debhelper (>> 5.0.22), autotools-dev, libusb-1.0-0-dev, pkg-config, zlib1g-dev
 Standards-Version: 3.9.2
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: usbutils
 Architecture: any
